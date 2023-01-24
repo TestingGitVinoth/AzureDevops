@@ -1,6 +1,7 @@
 name: Secret Value found!
 on:
   push:
+    branches: [ "main" ]
   public:
 jobs:
   scan:
